@@ -88,7 +88,8 @@ class EditProfile extends Component {
         facebook: profile.facebook,
         linkedin: profile.linkedin,
         youtube: profile.youtube,
-        displaySocialInputs: !isEmpty(profile.social) ? true : false
+        instagram: profile.instagram
+        //displaySocialInputs: !isEmpty(profile.social) ? true : false
       });
     }
   }
